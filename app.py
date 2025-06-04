@@ -106,7 +106,7 @@ def admin_only_route():
     """'admin'ロールを持つユーザーのみアクセスできるエンドポイント"""
     return jsonify({
         'message': f'Great! Flag is here!.',
-        "flag": 'flag{JvvT_T0k3n_is_1mp0rtaNt_9assvv0rD}'
+        "flag": 'flag{JvvT_is_1mp0rtaNt_9assvv0rD}'
     }), 200
 
 @app.route('/user_only', methods=['GET'])
